@@ -26,7 +26,7 @@ export default function Home() {
           <Button background="orange" />
           <Button background="yellow" />
           <Button background="lime" />
-          <Button background="blue" />
+          <Button background="cyan" />
         </div>
       </main>
     </div>

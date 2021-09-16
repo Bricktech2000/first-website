@@ -5,7 +5,7 @@ const Button = (props) => {
   const { background } = props;
 
   return (
-    <div className={styles.button} style={{ background: background }}>
+    <div className={styles.Button} style={{ background: background }}>
       Button
     </div>
   );
