@@ -16,9 +16,7 @@ export default function Home() {
           <h1>Reid Tull</h1>
           <p>
             Excepteur et proident exercitation consequat amet fugiat consectetur
-            qui dolore laboris dolor eu fugiat anim. Consequat occaecat
-            incididunt enim dolor labore fugiat excepteur non pariatur duis
-            pariatur anim id ad.
+            qui dolore laboris dolor eu fugiat anim.
           </p>
         </div>
         <div className={styles.buttons}>

@@ -6,16 +6,20 @@
   height: 100vh;
   flex-direction: row-reverse;
   justify-content: space-between;
+  background: #112;
 }
 
 .title h1 {
-  font-size: 5em;
-  color: #f3e;
+  font-size: 8em;
+  color: #fff;
   justify-content: right;
+  text-align: right;
 }
 
 .title p {
+  font-size: 2em;
   justify-content: right;
+  color: #aaa;
   text-align: right;
 }
 
@@ -24,7 +28,8 @@
   align-self: center;
   justify-self: center;
   flex-direction: column;
-  max-width: 70ch;
+  max-width: 100ch;
+  margin: 3em 3vw;
 }
 
 .buttons {
