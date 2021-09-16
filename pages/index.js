@@ -12,7 +12,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Button />
+        <div className={styles.title}>
+          <h1>Reid Tull</h1>
+          <p>
+            Excepteur et proident exercitation consequat amet fugiat consectetur
+            qui dolore laboris dolor eu fugiat anim. Consequat occaecat
+            incididunt enim dolor labore fugiat excepteur non pariatur duis
+            pariatur anim id ad.
+          </p>
+        </div>
+        <div className={styles.buttons}>
+          <Button />
+        </div>
       </main>
     </div>
   );
