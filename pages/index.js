@@ -22,7 +22,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.buttons}>
-          <Button />
+          <Button background="red" />
+          <Button background="orange" />
+          <Button background="yellow" />
+          <Button background="lime" />
+          <Button background="blue" />
         </div>
       </main>
     </div>

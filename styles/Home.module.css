@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .title h1 {
@@ -27,5 +28,6 @@
 }
 
 .buttons {
-  flex: 1;
+  flex-direction: column;
+  align-self: center;
 }
