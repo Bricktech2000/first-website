@@ -2,4 +2,13 @@
   padding: 0.75em 3em;
   padding-left: 25vw;
   margin: 0.5em 0;
+
+  cursor: pointer;
+  margin-left: -5em;
+  justify-content: right;
+  transition: transform 0.125s ease-out;
+}
+
+.Button:hover {
+  transform: translateX(1em);
 }
