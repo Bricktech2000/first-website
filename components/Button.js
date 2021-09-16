@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import styles from '../styles/Button.module.css';
 
 const Button = (props) => {
-  const { background } = props;
+  const { background, text } = props;
 
   return (
     <div className={styles.Button} style={{ background: background }}>
-      Button
+      {text}
     </div>
   );
 };

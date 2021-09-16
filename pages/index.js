@@ -20,11 +20,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.buttons}>
-          <Button background="red" />
-          <Button background="orange" />
-          <Button background="yellow" />
-          <Button background="lime" />
-          <Button background="cyan" />
+          <Button background="red" text="Button 1"/>
+          <Button background="orange" text="Button 2"/>
+          <Button background="yellow" text="Button 3"/>
+          <Button background="lime" text="Button 4"/>
+          <Button background="cyan" text="Button 5"/>
         </div>
       </main>
     </div>
