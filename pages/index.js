@@ -20,11 +20,31 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.buttons}>
-          <Button background="red" text="Button 1"/>
-          <Button background="orange" text="Button 2"/>
-          <Button background="yellow" text="Button 3"/>
-          <Button background="lime" text="Button 4"/>
-          <Button background="cyan" text="Button 5"/>
+          <Button
+            background="hsl(220deg, 75%, 50%)"
+            text="Button 1"
+            link="https://github.com/Bricktech2000/first-website"
+          />
+          <Button
+            background="hsl(230deg, 75%, 50%)"
+            text="Button 2"
+            link="https://github.com/Bricktech2000/first-website"
+          />
+          <Button
+            background="hsl(240deg, 75%, 50%)"
+            text="Button 3"
+            link="https://github.com/Bricktech2000/first-website"
+          />
+          <Button
+            background="hsl(250deg, 75%, 50%)"
+            text="Button 4"
+            link="https://github.com/Bricktech2000/first-website"
+          />
+          <Button
+            background="hsl(260deg, 75%, 50%)"
+            text="Button 5"
+            link="https://github.com/Bricktech2000/first-website"
+          />
         </div>
       </main>
     </div>

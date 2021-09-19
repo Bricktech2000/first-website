@@ -5,9 +5,14 @@ const Button = (props) => {
   const { background, text } = props;
 
   return (
-    <div className={styles.Button} style={{ background: background }}>
+    <a
+      className={styles.Button}
+      style={{ background: background }}
+      href={props.link}
+      target="_blank"
+    >
       {text}
-    </div>
+    </a>
   );
 };
 
